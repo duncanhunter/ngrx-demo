@@ -7,8 +7,8 @@ describe('ngrx-demo App', function() {
     page = new NgrxDemoPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying app work', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('app work!');
   });
 });
